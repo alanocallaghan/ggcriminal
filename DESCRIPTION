@@ -1,0 +1,18 @@
+Package: ggcriminal
+Title: Unusual conditional means for ggplot2
+Version: 0.0.0.9000
+Authors@R: 
+    person(
+        "Alan", "O'Callaghan", 
+        email = "alan.ocallaghan@outlook.com", role = c("aut", "cre"))
+Description: A set of smoothing functions for ggplot2. Provides
+    types of conditional mean estimation that are not provided by the base
+    set of ggplot2 options. Options include robust regression, RBF regression,
+    and simple regularised regression.
+Depends: 
+    R (>=4.1),
+    ggplot2
+License: GPL-3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
